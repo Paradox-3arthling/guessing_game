@@ -4,6 +4,7 @@ use rand::Rng;
 
 
 fn main() {
+    // slight change to indicate feature
     println!("Welcome to the guessing game :D");
     println!("To kill me, input <ctrl + c> .\\/_");
     let secret_number = rand::thread_rng().gen_range(1, 101);
